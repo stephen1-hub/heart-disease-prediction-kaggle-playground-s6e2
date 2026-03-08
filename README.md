@@ -43,3 +43,28 @@ Predicting the likelihood of heart disease using clinical and diagnostic feature
 ---
 
 ## 📂 Repository Structure
+Heart-Disease-Prediction/
+│
+├── data/
+│   ├── train.csv            # Original training dataset
+│   ├── test.csv             # Test dataset for submission
+│   └── README.md            # Short description of the datasets
+│
+├── notebooks/
+│   ├── 1_EDA.ipynb          # Exploratory Data Analysis, correlations, visualizations
+│   ├── 2_Feature_Selection.ipynb # Feature selection, correlation analysis
+│   ├── 3_Model_Training.ipynb   # Model building, hyperparameter tuning
+│   └── 4_Submission.ipynb  # Generating predictions for test set
+│
+├── reports/
+│   ├── figures/             # Save ROC curves, feature importance plots
+│   └── summary.md           # Brief project summary with key insights
+│
+├── src/                     # Optional: if you want to modularize your code
+│   ├── preprocessing.py
+│   ├── modeling.py
+│   └── utils.py
+│
+├── requirements.txt         # Python packages required to run notebooks
+├── submission.csv           # Example of submission file for evaluation
+└── README.md                # Project overview (your Kaggle-style summary)
